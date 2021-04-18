@@ -1,0 +1,14 @@
+
+<button><a href="/insertUser">Add User</a> </button>
+<button><a href="/updateUser">Update User</a> </button>
+<button><a href="/removeUser">Remove User</a> </button>
+{{#each User}}
+    <li> _id: {{this._id}}</li>
+<li> idUser: {{this.idUser}}</li>
+<li> name: {{this.name}}</li>
+<li> address: {{this.address}}</li>
+<li> age: {{this.age}}</li>
+<li> phoneNumber: {{this.phoneNumber}}</li>
+<li> avatar: {{this.avatar}}</li>
+<li>----------------------------------------</li>
+{{/each}}
